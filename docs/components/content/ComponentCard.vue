@@ -108,14 +108,19 @@ const props = defineProps({
   }
 })
 
-// eslint-disable-next-line vue/no-dupe-keys
+
 const baseProps = reactive({ ...props.baseProps })
 const componentProps = reactive({ ...props.props })
 
 const appConfig = useAppConfig()
 const route = useRoute()
+<<<<<<< HEAD
 // eslint-disable-next-line vue/no-dupe-keys
 const slug = props.slug || route.params.slug[route.params.slug.length - 1]
+=======
+
+const slug = props.slug || route.params.slug[1]
+>>>>>>> de4bf7bb885638425bc37b928c070c97e292202d
 const camelName = useCamelCase(slug)
 const name = `U${useUpperFirst(camelName)}`
 
@@ -123,7 +128,7 @@ const meta = await fetchComponentMeta(name)
 
 // Computed
 
-// eslint-disable-next-line vue/no-dupe-keys
+
 const ui = computed(() => ({ ...appConfig.ui[camelName], ...props.ui }))
 
 const fullProps = computed(() => ({ ...baseProps, ...componentProps }))
@@ -156,7 +161,7 @@ const propsToSelect = computed(() => Object.keys(componentProps).map((key) => {
   }
 }).filter(Boolean))
 
-// eslint-disable-next-line vue/no-dupe-keys
+
 const code = computed(() => {
   let code = `\`\`\`html
 <${name}`
