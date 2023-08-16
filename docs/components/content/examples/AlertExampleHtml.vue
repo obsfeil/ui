@@ -2,11 +2,11 @@
 <template>
   <UAlert title="Heads <i>up</i>!" icon="i-heroicons-command-line">
     <template #title="{ title }">
-<<<<<<< HEAD
+      <<<<<<< HEAD
       <!-- eslint-disable-next-line vue/no-v-html -->
-=======
+      =======
       // eslint-disable-next-line vue/no-v-html
->>>>>>> de4bf7bb885638425bc37b928c070c97e292202d
+      >>>>>>> de4bf7bb885638425bc37b928c070c97e292202d
       <span v-html="title" />
     </template>
 

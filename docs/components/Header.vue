@@ -28,7 +28,7 @@
 </template>
 
 <script setup lang="ts">
-import { useElementsHelpers } from '.nuxt/imports';
+import { useElementsHelpers } from '.nuxt/imports'
 import type { NavItem } from '@nuxt/content/dist/runtime/types'
 
 const { mapContentNavigation } = useElementsHelpers()
