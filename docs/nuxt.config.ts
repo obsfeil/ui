@@ -10,7 +10,7 @@ export default defineNuxtConfig({
   extends: process.env.NUXT_ELEMENTS_PATH || '@nuxthq/elements',
   modules: [
     '@nuxt/content',
-    // '@nuxt/devtools',
+    '@nuxt/devtools',
     // '@nuxthq/studio',
     module,
     '@nuxtjs/fontaine',
@@ -76,5 +76,12 @@ export default defineNuxtConfig({
   typescript: {
     strict: false,
     includeWorkspace: true
+  },
+  devtools: {
+    // Enable devtools (default: true)
+    enabled: true,
+    // VS Code Server options
+    vscode: {}
+    // ...other options
   }
 })
