@@ -56,7 +56,6 @@
 // @ts-expect-error
 import { transformContent } from '@nuxt/content/transformers'
 
-// eslint-disable-next-line vue/no-dupe-keys
 const props = defineProps({
   slug: {
     type: String,
@@ -114,13 +113,8 @@ const componentProps = reactive({ ...props.props })
 
 const appConfig = useAppConfig()
 const route = useRoute()
-<<<<<<< HEAD
-// eslint-disable-next-line vue/no-dupe-keys
-const slug = props.slug || route.params.slug[route.params.slug.length - 1]
-=======
 
-const slug = props.slug || route.params.slug[1]
->>>>>>> de4bf7bb885638425bc37b928c070c97e292202d
+const slug = props.slug || route.params.slug[route.params.slug.length - 1]
 const camelName = useCamelCase(slug)
 const name = `U${useUpperFirst(camelName)}`
 
