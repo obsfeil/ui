@@ -43,11 +43,11 @@
 
 ## [2.6.0](https://github.com/nuxtlabs/ui/compare/v2.5.0...v2.6.0) (2023-07-18)
 
-### ⚠ BREAKING CHANGES
+⚠ BREAKING CHANGES
 
 * **Avatar:** bind component attributes to img element (#421)
 
-### Features
+Features
 
 * **Accordion:** add `multiple` prop and close others by default ([#364](https://github.com/nuxtlabs/ui/issues/364)) ([b78fcf9](https://github.com/nuxtlabs/ui/commit/b78fcf91a4b592a6ca83ca4333e1d6658ec6458d))
 * **Accordion:** new component ([#301](https://github.com/nuxtlabs/ui/issues/301)) ([e50f377](https://github.com/nuxtlabs/ui/commit/e50f377b946996efd4546195e528fbed59dcb22f))
@@ -58,7 +58,7 @@
 * **Table:** add click event for the entire row ([#353](https://github.com/nuxtlabs/ui/issues/353)) ([d292706](https://github.com/nuxtlabs/ui/commit/d2927069673840dad58d388ab982b5488642edec))
 * **Table:** allow columns `class` customization ([5dffa86](https://github.com/nuxtlabs/ui/commit/5dffa868b11760610ea0bf9f2ce37931cdac4eb9)), closes [#366](https://github.com/nuxtlabs/ui/issues/366)
 
-### Bug Fixes
+Bug Fixes
 
 * **Accordion:** missing `ref` import from vue ([3de6b34](https://github.com/nuxtlabs/ui/commit/3de6b349d8b043ed2524bd6418f350ebb4557adb))
 * **Accordion:** solve the shift between buttons when they are opened ([#379](https://github.com/nuxtlabs/ui/issues/379)) ([eaf0043](https://github.com/nuxtlabs/ui/commit/eaf0043da660dfb168a7d4f2312d4344598c2f86))
@@ -72,11 +72,11 @@
 
 ## [2.5.0](https://github.com/nuxtlabs/ui/compare/v2.4.1...v2.5.0) (2023-06-27)
 
-### ⚠ BREAKING CHANGES
+⚠ BREAKING CHANGES
 
 * **Radio/Checkbox/Toggle:** handle `color` prop for form elements (#323)
 
-### Features
+Features
 
 * **Avatar:** handle `chipText` ([#306](https://github.com/nuxtlabs/ui/issues/306)) ([759af05](https://github.com/nuxtlabs/ui/commit/759af058df636f55a54326b21ebb1c315c73c26b))
 * **defineShortcuts:** chained shortcuts + docs update ([#282](https://github.com/nuxtlabs/ui/issues/282)) ([a67f691](https://github.com/nuxtlabs/ui/commit/a67f691a0066e4d017f580388df31b22d1c45372))
@@ -86,7 +86,7 @@
 * **Table:** pass row index to table cell ([#291](https://github.com/nuxtlabs/ui/issues/291)) ([71c2465](https://github.com/nuxtlabs/ui/commit/71c2465d7be78cfb0e274b107aceda9de5384fb7))
 * **Table:** reset sort on third click ([1ff11ac](https://github.com/nuxtlabs/ui/commit/1ff11ac1a3eff537a4ee854a049668f312f1d415)), closes [#300](https://github.com/nuxtlabs/ui/issues/300)
 
-### Bug Fixes
+Bug Fixes
 
 * **components:** prefix `@headlessui/vue` components ([41b85d5](https://github.com/nuxtlabs/ui/commit/41b85d50a865cfe4aa0f06a62f5209358422eaec)), closes [#315](https://github.com/nuxtlabs/ui/issues/315)
 * **defineShortcuts:** missing `ref` import ([a880379](https://github.com/nuxtlabs/ui/commit/a8803794802c4032f703a0a0a6343a8204b19bc8))
@@ -99,7 +99,7 @@
 
 ### [2.4.1](https://github.com/nuxtlabs/ui/compare/v2.4.0...v2.4.1) (2023-06-21)
 
-### Bug Fixes
+Bug Fixes
 
 * **forms:** precise type assertion for `onInput` event handler ([#293](https://github.com/nuxtlabs/ui/issues/293)) ([457b7a9](https://github.com/nuxtlabs/ui/commit/457b7a9fb72e6469014b6ca18e7034dd5c6f44b8))
 * **module:** let `tailwindcss` viewer enabled by default ([4023fbe](https://github.com/nuxtlabs/ui/commit/4023fbec29e5b4d40fd23e8c2ae3d0cf23addc64)), closes [#292](https://github.com/nuxtlabs/ui/issues/292)
@@ -109,12 +109,12 @@
 
 ## [2.4.0](https://github.com/nuxtlabs/ui/compare/v2.3.0...v2.4.0) (2023-06-13)
 
-### ⚠ BREAKING CHANGES
+⚠ BREAKING CHANGES
 
 * **forms:** bind `$attrs` to elements (#279)
 * **Select:** rename `text-attribute` to `option-attribute` and defaults to `label`
 
-### Features
+Features
 
 * **CommandPalette:** handle `empty-state` ([#271](https://github.com/nuxtlabs/ui/issues/271)) ([652af93](https://github.com/nuxtlabs/ui/commit/652af93f5c7cd4b34044a5597f3c14441ed6d998))
 * **module:** smart safelisting ([#268](https://github.com/nuxtlabs/ui/issues/268)) ([20fa4d2](https://github.com/nuxtlabs/ui/commit/20fa4d2317fc1e14fe87fa273957b92e63668945))
@@ -122,7 +122,7 @@
 * **table:** add loading state ([#259](https://github.com/nuxtlabs/ui/issues/259)) ([4741532](https://github.com/nuxtlabs/ui/commit/47415322ea56b5388e55c404c901531e807a9f00))
 * **table:** add slot for empty state ([#260](https://github.com/nuxtlabs/ui/issues/260)) ([f7a34c8](https://github.com/nuxtlabs/ui/commit/f7a34c8feeda6a4e1e1daff87b37b375aaa0c90d))
 
-### Bug Fixes
+Bug Fixes
 
 * **ButtonGroup:** invalid `size` validator ([a617672](https://github.com/nuxtlabs/ui/commit/a6176720c75b26768ba91efcab50689a932931ad))
 * **ButtonGroup:** use `-space-x-px` on wrapper ([d91c0bb](https://github.com/nuxtlabs/ui/commit/d91c0bb8944224d4e8eb62f99a33a6be94e5cd92))
@@ -147,7 +147,7 @@
 
 ## [2.3.0](https://github.com/nuxtlabs/ui/compare/v2.2.1...v2.3.0) (2023-06-05)
 
-### ⚠ BREAKING CHANGES
+⚠ BREAKING CHANGES
 
 * **Input:** move pointer class inside its own preset class
 * **SelectMenu:** remove `inline-flex` from wrapper to behave like other form elements
@@ -155,11 +155,11 @@
 * **CommandPalette:** rename props to `emptyState` and `closeButton` for consistency
 * **Toggle:** rename icons to `onIcon` / `offIcon` for consistency
 
-### Features
+Features
 
 * add `Table` component ([#237](https://github.com/nuxtlabs/ui/issues/237)) ([cce000a](https://github.com/nuxtlabs/ui/commit/cce000ab2b2af1079216e0e79769703fc4d9933e))
 
-### Bug Fixes
+Bug Fixes
 
 * **Avatar:** placeholder font size ([71edb91](https://github.com/nuxtlabs/ui/commit/71edb91c4ff17a258d6229ed6c6fa6a4b54bdd53))
 * **Badge:** remove `console.log` in validator ([f9b935f](https://github.com/nuxtlabs/ui/commit/f9b935f5f59b872fd952a2739d305d6574bf7cf8))
@@ -181,24 +181,24 @@
 
 ### [2.2.1](https://github.com/nuxtlabs/ui/compare/v2.2.0...v2.2.1) (2023-05-27)
 
-### Bug Fixes
+Bug Fixes
 
 * **FormGroup:** missing `h` import from `vue` ([a96dc19](https://github.com/nuxtlabs/ui/commit/a96dc192157725143503b1a5e4b404cb48dc9d3f)), closes [#236](https://github.com/nuxtlabs/ui/issues/236)
 
 ## [2.2.0](https://github.com/nuxtlabs/ui/compare/v2.1.0...v2.2.0) (2023-05-26)
 
-### ⚠ BREAKING CHANGES
+⚠ BREAKING CHANGES
 
 * handle color states on form elements (#234)
 * **Notification:** rename `progressColor` to `color` and style icon
 * **Avatar:** remove `chipVariant` prop
 * **VerticalNavigation:** split preset
 
-### Features
+Features
 
 * handle color states on form elements ([#234](https://github.com/nuxtlabs/ui/issues/234)) ([9ce531a](https://github.com/nuxtlabs/ui/commit/9ce531a06f1a972bc003876162e0503c1bbbdbd8))
 
-### Bug Fixes
+Bug Fixes
 
 * **Notification:** remove default color on icon ([1a9dc5c](https://github.com/nuxtlabs/ui/commit/1a9dc5c980d8477cdf9386a17e20fc9fec0d883e))
 * **Radio/Checkbox:** remove ring offset on focus ([a56dbea](https://github.com/nuxtlabs/ui/commit/a56dbeab351a5c58e5bb49f5762669e2884c6483))
@@ -210,7 +210,7 @@
 
 ## [2.1.0](https://github.com/nuxtlabs/ui/compare/v2.0.4...v2.1.0) (2023-05-19)
 
-### Bug Fixes
+Bug Fixes
 
 * **app.config:** trailing space ([703fdef](https://github.com/nuxtlabs/ui/commit/703fdef9bd4c0e26b0e38a13c30aff5b1d9d19aa))
 * **ButtonGroup/AvatarGroup:** allow `v-for` ([#173](https://github.com/nuxtlabs/ui/issues/173)) ([3fa10aa](https://github.com/nuxtlabs/ui/commit/3fa10aa4ebf9ff7d443f8f2564dcaf9b63ce1fa8))
@@ -221,7 +221,7 @@
 
 ### [2.0.4](https://github.com/nuxtlabs/ui/compare/v2.0.3...v2.0.4) (2023-05-15)
 
-### Bug Fixes
+Bug Fixes
 
 * **SelectMenu:** add missing `inline-flex` on wrapper ([e8b4654](https://github.com/nuxtlabs/ui/commit/e8b46540d8767c7a63c0ff8e28263615626916e7))
 
@@ -229,13 +229,13 @@
 
 ### [2.0.2](https://github.com/nuxtlabs/ui/compare/v2.0.1...v2.0.2) (2023-05-11)
 
-### Bug Fixes
+Bug Fixes
 
 * **LinkCustom:** handle `button` when no `to` prop ([c7c78cb](https://github.com/nuxtlabs/ui/commit/c7c78cb47b00963c8a9ea0c0599fbc7e128cff66))
 
 ### [2.0.1](https://github.com/nuxtlabs/ui/compare/v2.0.0...v2.0.1) (2023-05-11)
 
-### Bug Fixes
+Bug Fixes
 
 * **app.config:** remove old `u-` classes ([939efba](https://github.com/nuxtlabs/ui/commit/939efba47ceb660e5448a3ea42f2acd71b9837ee))
 * **Avatar:** `gray` missing for `chipColor` ([fd4c80a](https://github.com/nuxtlabs/ui/commit/fd4c80acd4c70c7d378ebf780cd843115d8f434d))
@@ -261,19 +261,19 @@
 
 ## [2.0.0](https://github.com/nuxtlabs/ui/compare/v1.2.11...v2.0.0) (2023-05-04)
 
-### Features
+Features
 
 * rewrite to use app config and rework docs ([#143](https://github.com/nuxtlabs/ui/issues/143)) ([6da0db0](https://github.com/nuxtlabs/ui/commit/6da0db0113733df1a03220cb528bea862b553f37))
 
 ### [1.2.11](https://github.com/nuxtlabs/ui/compare/v1.2.10...v1.2.11) (2023-05-04)
 
-### Bug Fixes
+Bug Fixes
 
 * **defineShortcuts:** use `useEventListener` ([#150](https://github.com/nuxtlabs/ui/issues/150)) ([59f62d3](https://github.com/nuxtlabs/ui/commit/59f62d322f07919d16a8d35340c3aa038cd09520))
 
 ### [1.2.10](https://github.com/nuxtlabs/ui/compare/v1.2.9...v1.2.10) (2023-04-07)
 
-### Bug Fixes
+Bug Fixes
 
 * **CommandPalette:** typecheck ([cfce152](https://github.com/nuxtlabs/ui/commit/cfce1524b209212d9ce635b61376ff0d6bc3601b))
 
@@ -283,7 +283,7 @@
 
 ### [1.2.7](https://github.com/nuxtlabs/ui/compare/v1.2.6...v1.2.7) (2023-04-04)
 
-### Bug Fixes
+Bug Fixes
 
 * **useTimer:** remaining after pause ([aafdfdb](https://github.com/nuxtlabs/ui/commit/aafdfdb59c365c542f93703dd52b4306ac935040))
 
@@ -299,13 +299,13 @@
 
 ### [1.2.1](https://github.com/nuxtlabs/ui/compare/v1.2.0...v1.2.1) (2023-03-20)
 
-### Bug Fixes
+Bug Fixes
 
 * **defineShortcuts:** shift + alphabetic character handling ([#140](https://github.com/nuxtlabs/ui/issues/140)) ([377b418](https://github.com/nuxtlabs/ui/commit/377b4189ca85603db0b7f040949260ba7494c46f))
 
 ## [1.2.0](https://github.com/nuxtlabs/ui/compare/v1.1.4...v1.2.0) (2023-03-09)
 
-### Bug Fixes
+Bug Fixes
 
 * **defineShortcuts:** add missing import ([37b2271](https://github.com/nuxtlabs/ui/commit/37b2271bf04adfe6bee4d984fa12452b2168318c))
 * **Tooltip:** `shortcutsClass` prop type ([fa49d52](https://github.com/nuxtlabs/ui/commit/fa49d52f17752eaa06f997a9b6e8df8adcab983f))
@@ -316,7 +316,7 @@
 
 ### [1.1.2](https://github.com/nuxtlabs/ui/compare/v1.1.1...v1.1.2) (2023-02-28)
 
-### Bug Fixes
+Bug Fixes
 
 * **Tooltip:** truncate ([d08e64d](https://github.com/nuxtlabs/ui/commit/d08e64d53fa439f34d51909bcb6812f1bcd95d83))
 * **VerticalNavigation:** links `to` type ([7970aef](https://github.com/nuxtlabs/ui/commit/7970aefcb032ce01fcb11e9285fa61ce87f59519))
@@ -325,17 +325,17 @@
 
 ## [1.1.0](https://github.com/nuxtlabs/ui/compare/v1.0.0...v1.1.0) (2023-02-17)
 
-### Features
+Features
 
 * **CommandPalette:** handle async search for specific groups ([efa9674](https://github.com/nuxtlabs/ui/commit/efa9674815ab4de756079690da0a381c3703d564))
 
-### Bug Fixes
+Bug Fixes
 
 * **CommandPalette:** types ([4702a4f](https://github.com/nuxtlabs/ui/commit/4702a4f10379201c167cc52099519778756a5780))
 
 ## [1.0.0](https://github.com/nuxtlabs/ui/compare/v0.2.1...v1.0.0) (2023-02-17)
 
-### Features
+Features
 
 * migrate to `@egoist/tailwindcss-icons` ([ee33522](https://github.com/nuxtlabs/ui/commit/ee3352278cf03fdd12f2a4663b403052de3f089a))
 
@@ -345,11 +345,11 @@
 
 ### [0.1.39](https://github.com/nuxtlabs/ui/compare/v0.1.38...v0.1.39) (2023-02-16)
 
-### Features
+Features
 
 * use `nuxt-icon` ([f5d068b](https://github.com/nuxtlabs/ui/commit/f5d068be9d5778b3d4fcdc11d06d9d765e62075d))
 
-### Bug Fixes
+Bug Fixes
 
 * **SelectCustom:** handle search on string arrays ([6018f00](https://github.com/nuxtlabs/ui/commit/6018f009a86cca196d15e4e72dd5eb41aaeb4bad))
 
@@ -357,19 +357,19 @@
 
 ### [0.1.37](https://github.com/nuxtlabs/ui/compare/v0.1.36...v0.1.37) (2023-02-03)
 
-### Bug Fixes
+Bug Fixes
 
 * **CommandPalette:** improve accessibility ([#129](https://github.com/nuxtlabs/ui/issues/129)) ([bea47b5](https://github.com/nuxtlabs/ui/commit/bea47b5906d1bc665717830d6dc2f3ff2a0374f3))
 
 ### [0.1.36](https://github.com/nuxtlabs/ui/compare/v0.1.35...v0.1.36) (2023-02-02)
 
-### Bug Fixes
+Bug Fixes
 
 * **CommandPalette:** put back cursor on top only when query changes ([5bf5a31](https://github.com/nuxtlabs/ui/commit/5bf5a314c414b96c656190719bd56acca10676f5))
 
 ### [0.1.35](https://github.com/nuxtlabs/ui/compare/v0.1.34...v0.1.35) (2023-02-01)
 
-### Bug Fixes
+Bug Fixes
 
 * **AvatarGroup:** preset size prop ([c90cd9c](https://github.com/nuxtlabs/ui/commit/c90cd9c4f37bc3ce5f6e13f3279dc2c574c76524))
 * **Dropdown:** lint ([1c4d46e](https://github.com/nuxtlabs/ui/commit/1c4d46e056adf84d69462a12af8ac29f93cbf87a))
@@ -377,7 +377,7 @@
 
 ### [0.1.34](https://github.com/nuxtlabs/ui/compare/v0.1.33...v0.1.34) (2023-01-27)
 
-### Bug Fixes
+Bug Fixes
 
 * **CommandPalette:** typecheck ([27717a5](https://github.com/nuxtlabs/ui/commit/27717a55b3e5120f32fba2bcea30f5a91262f1c5))
 
@@ -397,7 +397,7 @@
 
 ### [0.1.26](https://github.com/nuxtlabs/ui/compare/v0.1.25...v0.1.26) (2023-01-09)
 
-### Bug Fixes
+Bug Fixes
 
 * **CommandPalette:** select first item on search changes ([#126](https://github.com/nuxtlabs/ui/issues/126)) ([4f56921](https://github.com/nuxtlabs/ui/commit/4f56921096f5885cdab8b7cb5c5aa01304188e11))
 
@@ -413,7 +413,7 @@
 
 ### [0.1.20](https://github.com/nuxtlabs/ui/compare/v0.1.19...v0.1.20) (2022-12-19)
 
-### Bug Fixes
+Bug Fixes
 
 * avoid referring to complex types in props ([#123](https://github.com/nuxtlabs/ui/issues/123)) ([ff9f6c2](https://github.com/nuxtlabs/ui/commit/ff9f6c251df59641862d82587e5d963c8e6ea298))
 
@@ -423,19 +423,19 @@
 
 ### [0.1.17](https://github.com/nuxtlabs/ui/compare/v0.1.16...v0.1.17) (2022-12-06)
 
-### Bug Fixes
+Bug Fixes
 
 * remove stop propagation on mode hover ([16fd1c0](https://github.com/nuxtlabs/ui/commit/16fd1c0ca38f1438e791c0d44399f590d9f20d02))
 
 ### [0.1.16](https://github.com/nuxtlabs/ui/compare/v0.1.15...v0.1.16) (2022-12-06)
 
-### Bug Fixes
+Bug Fixes
 
 * **Popover:** preset from tooltip ([0ade69d](https://github.com/nuxtlabs/ui/commit/0ade69de2689b094b11a2dead8f71e3d2dccd552))
 
 ### [0.1.15](https://github.com/nuxtlabs/ui/compare/v0.1.14...v0.1.15) (2022-12-02)
 
-### Bug Fixes
+Bug Fixes
 
 * **Dropdown:** better handle item click to preventDefault ([#119](https://github.com/nuxtlabs/ui/issues/119)) ([44a78d7](https://github.com/nuxtlabs/ui/commit/44a78d7f679812c59d4410d0bbc01f09abaa78dd))
 
@@ -445,26 +445,26 @@
 
 ### [0.1.12](https://github.com/nuxtlabs/ui/compare/v0.1.11...v0.1.12) (2022-11-29)
 
-### Bug Fixes
+Bug Fixes
 
 * **Checkbox:** types ([629bb72](https://github.com/nuxtlabs/ui/commit/629bb724249cfe1fdd999cf52f8e72ca444bd94d))
 
 ### [0.1.11](https://github.com/nuxtlabs/ui/compare/v0.1.10...v0.1.11) (2022-11-29)
 
-### Bug Fixes
+Bug Fixes
 
 * **Checkbox:** revert type fix as it breaks checkboxes ([7f18c6b](https://github.com/nuxtlabs/ui/commit/7f18c6bdc7c0054b2e5d4f9bf4e362847a3ba3a3))
 
 ### [0.1.10](https://github.com/nuxtlabs/ui/compare/v0.1.9...v0.1.10) (2022-11-26)
 
-### Bug Fixes
+Bug Fixes
 
 * default popper options ([1ad9606](https://github.com/nuxtlabs/ui/commit/1ad96065fd706d828b906db3a5d578226ff08c36))
 * default props for command palette ([#116](https://github.com/nuxtlabs/ui/issues/116)) ([952786e](https://github.com/nuxtlabs/ui/commit/952786ed79cd9cdf523f6eac5958f68790bacbea))
 
 ### [0.1.9](https://github.com/nuxtlabs/ui/compare/v0.1.8...v0.1.9) (2022-11-25)
 
-### Bug Fixes
+Bug Fixes
 
 * **Icon:** couldn't load anymore ([6321d3e](https://github.com/nuxtlabs/ui/commit/6321d3ed8d5c9478cb1dafc1da94b21d0c7edb88))
 * **Icon:** eslint ignore ([bc0c168](https://github.com/nuxtlabs/ui/commit/bc0c168c0b0feae96d6a1848c3a356d846e2cbb5))
@@ -475,7 +475,7 @@
 
 ### [0.1.6](https://github.com/nuxtlabs/ui/compare/v0.1.5...v0.1.6) (2022-11-15)
 
-### Bug Fixes
+Bug Fixes
 
 * **SelectCustom:** add `w-full` on `ComboboxButton` ([3a300f7](https://github.com/nuxtlabs/ui/commit/3a300f72c1eca756ffd8f07ab871bf9c7bd7868d))
 
@@ -483,13 +483,13 @@
 
 ### [0.1.4](https://github.com/nuxtlabs/ui/compare/v0.1.3...v0.1.4) (2022-11-08)
 
-### Bug Fixes
+Bug Fixes
 
 * **button:** support `RouteLocationRaw` type for `to` ([#112](https://github.com/nuxtlabs/ui/issues/112)) ([1b56b50](https://github.com/nuxtlabs/ui/commit/1b56b50d4d54a5cb9e5febacdf42867988ae6c5d))
 
 ### [0.1.3](https://github.com/nuxtlabs/ui/compare/v0.1.2...v0.1.3) (2022-11-04)
 
-### Bug Fixes
+Bug Fixes
 
 * **docs:** component input string field ([e521e1a](https://github.com/nuxtlabs/ui/commit/e521e1ac2421dc331652f1ea4ac2b0b2959dc069))
 * **types:** add missing field in command palette type ([#111](https://github.com/nuxtlabs/ui/issues/111)) ([28586c3](https://github.com/nuxtlabs/ui/commit/28586c35a558d9e925094f86e07acdb928d54ad7))
@@ -498,7 +498,7 @@
 
 ### [0.1.1](https://github.com/nuxtlabs/ui/compare/v0.1.0...v0.1.1) (2022-10-26)
 
-### Bug Fixes
+Bug Fixes
 
 * **CommandPalette:** lint ([6fab68b](https://github.com/nuxtlabs/ui/commit/6fab68baa836c97680446e8cfdee7c5a64008539))
 * **Dropdown:** close on click item with `to` ([#103](https://github.com/nuxtlabs/ui/issues/103)) ([5517cc2](https://github.com/nuxtlabs/ui/commit/5517cc28467f957956a20126c1ce48e64677cb82))
@@ -507,7 +507,7 @@
 
 ## [0.1.0](https://github.com/nuxtlabs/ui/compare/v0.0.3...v0.1.0) (2022-10-25)
 
-### Bug Fixes
+Bug Fixes
 
 * `to` prop type ([be94fea](https://github.com/nuxtlabs/ui/commit/be94fea84acc69c0114099b5251ff34e3a239726))
 * **CommandPalette:** command icons opacity in dark mode ([abb93b5](https://github.com/nuxtlabs/ui/commit/abb93b5fd3ddda8c91db3370c8e3109cff4a091d))
@@ -533,7 +533,7 @@
 
 ### [0.0.3](https://github.com/nuxtlabs/ui/compare/v0.0.2...v0.0.3) (2022-07-18)
 
-### Features
+Features
 
 * **AvatarGroup:** preset support ([#69](https://github.com/nuxtlabs/ui/issues/69)) ([00b9a08](https://github.com/nuxtlabs/ui/commit/00b9a0839b3fb19521080684cf3f4e46cf4c64e5))
 * **button:** Add black variant ([#34](https://github.com/nuxtlabs/ui/issues/34)) ([46ca8c5](https://github.com/nuxtlabs/ui/commit/46ca8c5422cc00a2c66376d910b9669ab82002d0))
@@ -551,7 +551,7 @@
 * **toast:** add aliases for `info` and `warning` notifications ([23deef3](https://github.com/nuxtlabs/ui/commit/23deef325a33bd52f90dbd0a1005131b4314c1fd))
 * **toast:** expose `timeout` to alias methods ([#30](https://github.com/nuxtlabs/ui/issues/30)) ([6bd5197](https://github.com/nuxtlabs/ui/commit/6bd51975bfefb963fa59c4a151833db029cfe93a))
 
-### Bug Fixes
+Bug Fixes
 
 * **Avatar:** add missing `watch` import ([cc01af8](https://github.com/nuxtlabs/ui/commit/cc01af8e553bfe50eb8f1a51260db0331dc11a69))
 * **AvatarGroup:** pass all avatar props ([723f075](https://github.com/nuxtlabs/ui/commit/723f075c562fa5ed261d02656e7cd5684fa06170))
@@ -641,7 +641,7 @@
 
 ### 0.0.2 (2022-02-01)
 
-### Features
+Features
 
 * **AlertDialog:** create component ([#26](https://github.com/nuxtlabs/ui/issues/26)) ([71371ac](https://github.com/nuxtlabs/ui/commit/71371ac34ec23fb75d35f9240b1889efd3f6954b))
 * **alert:** Handle link as button ([#25](https://github.com/nuxtlabs/ui/issues/25)) ([b218737](https://github.com/nuxtlabs/ui/commit/b2187374f642cd401c7703d3da7c9eafb719015f))
@@ -649,7 +649,7 @@
 * module improvements ([74bd7bc](https://github.com/nuxtlabs/ui/commit/74bd7bc180319929d93a162c9d97ccad5c9648d6))
 * support presets ([#14](https://github.com/nuxtlabs/ui/issues/14)) ([8f09d0c](https://github.com/nuxtlabs/ui/commit/8f09d0c5ef81c2d7d5fc608fe6c5d7c2fa1a2267))
 
-### Bug Fixes
+Bug Fixes
 
 * **Badge:** add missing vue import ([542ee20](https://github.com/nuxtlabs/ui/commit/542ee205df0af9d2d528c2aee3e25f1f9ce05434))
 * **build:** add missing `types` dir ([f666ff1](https://github.com/nuxtlabs/ui/commit/f666ff19d145c82bb537fd2344b5d3bc4916fcb3))
