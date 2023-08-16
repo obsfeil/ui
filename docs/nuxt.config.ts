@@ -7,7 +7,12 @@ import pkg from '../package.json'
 const { resolve } = createResolver(import.meta.url)
 
 export default defineNuxtConfig({
+<<<<<<< HEAD
   extends: process.env.NUXT_ELEMENTS_PATH || '@nuxthq/elements',
+=======
+  extends: '@nuxt-themes/ui-kit',
+
+>>>>>>> de4bf7bb885638425bc37b928c070c97e292202d
   modules: [
     '@nuxt/content',
     '@nuxt/devtools',
@@ -20,16 +25,19 @@ export default defineNuxtConfig({
     'nuxt-component-meta',
     'nuxt-lodash'
   ],
+
   runtimeConfig: {
     public: {
       version: pkg.version
     }
   },
+
   ui: {
     global: true,
     icons: ['heroicons', 'simple-icons'],
     safelistColors: excludeColors(colors)
   },
+<<<<<<< HEAD
   content: {
     sources: {
       // overwrite default source AKA `content` directory
@@ -47,22 +55,29 @@ export default defineNuxtConfig({
       }
     }
   },
+=======
+
+>>>>>>> de4bf7bb885638425bc37b928c070c97e292202d
   googleFonts: {
     families: {
       Inter: [400, 500, 600, 700]
     }
   },
+
   routeRules: {
     '/': { redirect: '/getting-started', prerender: false }
   },
+
   nitro: {
     prerender: {
       routes: ['/getting-started', '/dev/getting-started']
     }
   },
+
   experimental: {
     payloadExtraction: false
   },
+
   componentMeta: {
     globalsOnly: true,
     exclude: [resolve('./components'), resolve('@nuxthq/elements/components')],
@@ -73,15 +88,24 @@ export default defineNuxtConfig({
       exposed: false
     }
   },
+
   typescript: {
     strict: false,
     includeWorkspace: true
   },
+<<<<<<< HEAD
   devtools: {
     // Enable devtools (default: true)
     enabled: true,
     // VS Code Server options
     vscode: {}
     // ...other options
+=======
+
+  devtools: {
+    timeline: {
+      enabled: true
+    }
+>>>>>>> b124749566ad7efe539b115eb418e42b302571af
   }
 })
