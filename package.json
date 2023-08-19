@@ -33,11 +33,7 @@
     "@egoist/tailwindcss-icons": "^1.1.0",
     "@headlessui/vue": "^1.7.15",
     "@iconify-json/heroicons": "^1.1.12",
-<<<<<<< HEAD
     "@nuxt/devtools": "^0.8.0",
-=======
-    "@nuxt/devtools": "npm:@nuxt/devtools-edge@latest",
->>>>>>> 72e4694b7829cf4a74dd9dab1773ca27f4d97e55
     "@nuxt/kit": "^3.6.5",
     "@nuxtjs/color-mode": "^3.3.0",
     "@nuxtjs/tailwindcss": "^6.8.0",
@@ -56,11 +52,6 @@
     "tailwindcss": "^3.3.3"
   },
   "devDependencies": {
-<<<<<<< HEAD
-    "@nuxthq/ui": "npm:@nuxthq/ui-edge@latest",
-=======
-    "@nuxt/devtools": "^0.8.0",
->>>>>>> 72e4694b7829cf4a74dd9dab1773ca27f4d97e55
     "@nuxt/eslint-config": "^0.1.1",
     "@nuxt/module-builder": "^0.4.0",
     "@nuxthq/ui": "workspace:^",

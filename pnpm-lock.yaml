@@ -18,13 +18,8 @@ importers:
         specifier: ^1.1.12
         version: 1.1.12
       '@nuxt/devtools':
-<<<<<<< HEAD
         specifier: ^0.8.0
         version: 0.8.0(nuxt@3.6.5)(rollup@3.26.2)(vite@4.4.9)
-=======
-        specifier: npm:@nuxt/devtools-edge@latest
-        version: /@nuxt/devtools-edge@0.7.5-28188713.ac4f58e(nuxt@3.6.5)(rollup@3.26.2)(vite@4.3.9)
->>>>>>> 72e4694b7829cf4a74dd9dab1773ca27f4d97e55
       '@nuxt/kit':
         specifier: ^3.6.5
         version: 3.6.5(rollup@3.26.2)
@@ -81,13 +76,8 @@ importers:
         specifier: ^0.4.0
         version: 0.4.0(@nuxt/kit@3.6.5)(nuxi@3.6.5)
       '@nuxthq/ui':
-<<<<<<< HEAD
         specifier: npm:@nuxthq/ui-edge@latest
         version: /@nuxthq/ui-edge@2.7.0-28200741.b8b7d74(rollup@3.26.2)(vue@3.3.4)(webpack@5.88.2)
-=======
-        specifier: workspace:^
-        version: 'link:'
->>>>>>> 72e4694b7829cf4a74dd9dab1773ca27f4d97e55
       '@release-it/conventional-changelog':
         specifier: ^7.0.0
         version: 7.0.0(release-it@16.1.5)

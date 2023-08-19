@@ -8,10 +8,7 @@ import { useAppConfig } from '#imports'
 // @ts-expect-error
 import appConfig from '#build/app.config'
 
-<<<<<<< HEAD
 //
-=======
->>>>>>> 72e4694b7829cf4a74dd9dab1773ca27f4d97e55
 const appConfig = useAppConfig()
 
 export default defineComponent({
