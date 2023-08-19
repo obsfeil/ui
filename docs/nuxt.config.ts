@@ -10,7 +10,7 @@ export default defineNuxtConfig({
   extends: process.env.NUXT_ELEMENTS_PATH || '@nuxthq/elements',
   modules: [
     '@nuxt/content',
-    // '@nuxt/devtools',
+    '@nuxt/devtools',
     // '@nuxthq/studio',
     module,
     '@nuxtjs/fontaine',
@@ -20,11 +20,13 @@ export default defineNuxtConfig({
     'nuxt-component-meta',
     'nuxt-lodash'
   ],
+
   runtimeConfig: {
     public: {
       version: pkg.version
     }
   },
+
   ui: {
     global: true,
     icons: ['heroicons', 'simple-icons'],
@@ -52,17 +54,21 @@ export default defineNuxtConfig({
       Inter: [400, 500, 600, 700]
     }
   },
+
   routeRules: {
     '/': { redirect: '/getting-started', prerender: false }
   },
+
   nitro: {
     prerender: {
       routes: ['/getting-started', '/dev/getting-started']
     }
   },
+
   experimental: {
     payloadExtraction: false
   },
+
   componentMeta: {
     globalsOnly: true,
     exclude: [resolve('./components'), resolve('@nuxthq/elements/components')],
@@ -73,8 +79,16 @@ export default defineNuxtConfig({
       exposed: false
     }
   },
+
   typescript: {
     strict: false,
     includeWorkspace: true
+  },
+  devtools: {
+    // Enable devtools (default: true)
+    enabled: true,
+    // VS Code Server options
+    vscode: {}
+    // ...other options
   }
 })
