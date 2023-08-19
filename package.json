@@ -33,6 +33,7 @@
     "@egoist/tailwindcss-icons": "^1.1.0",
     "@headlessui/vue": "^1.7.15",
     "@iconify-json/heroicons": "^1.1.12",
+    "@nuxt/devtools": "^0.8.0",
     "@nuxt/kit": "^3.6.5",
     "@nuxtjs/color-mode": "^3.3.0",
     "@nuxtjs/tailwindcss": "^6.8.0",
@@ -51,6 +52,7 @@
     "tailwindcss": "^3.3.3"
   },
   "devDependencies": {
+    "@nuxthq/ui": "npm:@nuxthq/ui-edge@latest",
     "@nuxt/eslint-config": "^0.1.1",
     "@nuxt/module-builder": "^0.4.0",
     "@release-it/conventional-changelog": "^7.0.0",
