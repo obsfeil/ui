@@ -25,6 +25,7 @@
 import { withoutTrailingSlash } from 'ufo'
 import { debounce } from 'perfect-debounce'
 import type { ParsedContent } from '@nuxt/content/dist/runtime/types'
+import { computed, fetchContentNavigation, provide, ref, useAsyncData, useColorMode, useContentSource, useHead, useLazyFetch, useRoute, useServerSeoMeta, useTrackEvent, watch } from '#imports'
 
 const searchRef = ref()
 
