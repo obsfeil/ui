@@ -25,6 +25,7 @@
 </template>
 
 <script setup lang="ts">
+import { computed, createError, defineOgImage, definePageMeta, findPageHeadline, queryContent, useAsyncData, useContentSource, useRoute, useSeoMeta } from '#imports'
 import { withoutTrailingSlash } from 'ufo'
 
 const route = useRoute()
