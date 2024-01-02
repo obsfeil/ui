@@ -1,8 +1,8 @@
 import { createResolver } from '@nuxt/kit'
 import colors from 'tailwindcss/colors'
-import module from '../src/module'
-import { excludeColors } from '../src/colors'
 import pkg from '../package.json'
+import { excludeColors } from '../src/colors'
+import module from '../src/module'
 
 const { resolve } = createResolver(import.meta.url)
 
@@ -18,8 +18,8 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/content',
     'nuxt-og-image',
-    // '@nuxt/devtools',
-    // '@nuxthq/studio',
+    '@nuxt/devtools',
+    '@nuxthq/studio',
     module,
     '@nuxtjs/fontaine',
     '@nuxtjs/google-fonts',
