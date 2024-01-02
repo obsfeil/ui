@@ -15,6 +15,7 @@ export default defineNuxtConfig({
     '@nuxt/ui-pro',
     process.env.NUXT_GITHUB_TOKEN && ['github:nuxt/ui-pro/.docs#dev', { giget: { auth: process.env.NUXT_GITHUB_TOKEN } }]
   ].filter(Boolean),
+
   modules: [
     '@nuxt/content',
     'nuxt-og-image',
@@ -29,16 +30,19 @@ export default defineNuxtConfig({
     'nuxt-cloudflare-analytics',
     'modules/content-examples-code'
   ],
+
   runtimeConfig: {
     public: {
       version: pkg.version
     }
   },
+
   ui: {
     global: true,
     icons: ['heroicons', 'simple-icons'],
     safelistColors: excludeColors(colors)
   },
+
   content: {
     sources: {
       dev: {
@@ -67,9 +71,11 @@ export default defineNuxtConfig({
       } : undefined
     }
   },
+
   fontMetrics: {
     fonts: ['DM Sans']
   },
+
   googleFonts: {
     display: 'swap',
     download: true,
@@ -77,6 +83,7 @@ export default defineNuxtConfig({
       'DM+Sans': [400, 500, 600, 700]
     }
   },
+
   nitro: {
     prerender: {
       routes: [
@@ -87,6 +94,7 @@ export default defineNuxtConfig({
       ]
     }
   },
+
   componentMeta: {
     exclude: [
       '@nuxt/content',
@@ -106,10 +114,12 @@ export default defineNuxtConfig({
       exposed: false
     }
   },
+
   cloudflareAnalytics: {
     token: '1e2b0c5e9a214f0390b9b94e043d8d4c',
     scriptPath: false
   },
+
   hooks: {
     // Related to https://github.com/nuxt/nuxt/pull/22558
     'components:extend': (components) => {
@@ -120,6 +130,12 @@ export default defineNuxtConfig({
           component.global = 'sync'
         }
       })
+    }
+  },
+
+  devtools: {
+    timeline: {
+      enabled: true
     }
   }
 })
