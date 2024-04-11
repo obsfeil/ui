@@ -17,9 +17,12 @@ export default defineNuxtConfig({
   ].filter(Boolean),
 
   modules: [
+    '@nuxt/ui',
     '@nuxt/content',
     'nuxt-og-image',
     '@nuxt/devtools',
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/color-mode',
     '@nuxthq/studio',
     module,
     '@nuxtjs/fontaine',

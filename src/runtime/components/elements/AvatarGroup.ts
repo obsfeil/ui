@@ -7,7 +7,7 @@ import { mergeConfig, getSlotsChildren } from '../../utils'
 import type { AvatarSize, Strategy } from '../../types'
 // @ts-expect-error
 import appConfig from '#build/app.config'
-import { avatar, avatarGroup } from '#ui/ui.config'
+import { avatar, avatarGroup } from './../../ui.config'
 
 const avatarConfig = mergeConfig<typeof avatar>(appConfig.ui.strategy, appConfig.ui.avatar, avatar)
 

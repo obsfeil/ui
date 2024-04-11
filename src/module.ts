@@ -167,10 +167,20 @@ export default defineNuxtModule<ModuleOptions>({
           },
           extract: {
             vue: (content) => {
-              return [
-                ...defaultExtractor(content),
-                ...customSafelistExtractor(options.prefix, content, nuxt.options.appConfig.ui.colors, options.safelistColors)
-              ]
+              const extractors = [
+                defaultExtractor,
+                customSafelistExtractor,
+              ];
+
+              const config = nuxt.options.appConfig.ui;
+              const colors = [
+                ...extractors.map(extractor => extractor(content)),
+                ...extractors.map(extractor => extractor(config))
+                  .flat()
+                  .filter(color => options.safelistColors.includes(color)),
+              ];
+
+              return colors;
             }
           }
         }
